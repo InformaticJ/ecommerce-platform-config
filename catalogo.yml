@@ -34,7 +34,7 @@ resilience4j:
         writable-stack-trace-enabled: true
         automatic-transition-from-open-to-half-open-enabled: true
     instances:
-      jornadas:
+      prendas:
         base-config: shared
     timelimiter:
       configs:
@@ -42,5 +42,5 @@ resilience4j:
         timeout-duration: 2s
         cancel-running-future: true
       instances:
-        jornadas:
+        prendas:
           base-config: shared
