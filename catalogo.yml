@@ -40,6 +40,8 @@ resilience4j:
         base-config: shared
       recursos:
         base-config: shared
+      stock:
+        base-config: shared
     timelimiter:
       configs:
         shared:
@@ -51,4 +53,6 @@ resilience4j:
         personalizaciones:
           base-config: shared
         recursos:
+          base-config: shared
+        stock:
           base-config: shared
